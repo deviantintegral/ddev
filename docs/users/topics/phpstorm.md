@@ -84,7 +84,7 @@ Debugging should be working! You can step through your code, set breakpoints, vi
 
 (Nice to have) I set the PHPStorm terminal path (Settings→Tools→Terminal→Shell Path) to C:\Windows\System32\wsl.exe. That way when I use the terminal Window in WSL2 it’s using the wonderful bash shell in WSL2.
 
-#### PHPStorm inside WSL2 in Linux
+#### PhpStorm inside WSL2 in Linux
 
 1. On Windows 11 or Windows 10 Insider Builds you don't need to install an X11 server, because WSLg comes with that these days. On older Windows 10, Install X410 from the Microsoft Store, launch it, configure in the system tray with “Windowed Apps”, “Allow public access”, “DPI Scaling”→”High quality”. Obviously you can use another X11 server, but this is the one I’ve used.
 2. Temporarily disable your Windows firewall. You can re-enable it after you get everything working.
